@@ -1,4 +1,4 @@
-function addNumbers(a: number, b: number): number {
+function addNumber(a: number, b: number): number {
     return a + b;
 }
 
@@ -6,5 +6,5 @@ function addNumbers(a: number, b: number): number {
 const num1: number = 5;
 const num2: number = 10;
 
-const sum: number = addNumbers(num1, num2);
+const sum: number = addNumber(num1, num2);
 console.log(`The sum of ${num1} and ${num2} is ${sum}`);
